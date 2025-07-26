@@ -1,0 +1,16 @@
+.default {
+  color: gray;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.text {
+  font-size: 12px;
+  font-weight: 500;
+}

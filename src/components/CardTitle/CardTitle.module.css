@@ -1,0 +1,16 @@
+.titleContainer {
+  display: flex;
+  gap: 8px;
+  padding: 8px 0;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: rgba(23, 24, 28, 1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

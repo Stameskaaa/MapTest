@@ -1,0 +1,39 @@
+.container {
+  border-radius: 999px;
+  border: 1px solid;
+  padding: 4px 12px;
+  display: flex;
+  gap: 10px;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  line-height: 12px;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.ok {
+  color: rgba(45, 110, 47, 1);
+  background-color: rgba(212, 242, 214, 1);
+  border-color: rgba(45, 110, 47, 1);
+}
+
+.process {
+  color: rgba(84, 84, 34, 1);
+  background-color: rgba(236, 241, 174, 1);
+  border-color: rgba(84, 84, 34, 1);
+}
+
+.inactive {
+  background-color: rgba(242, 242, 242, 1);
+  border-color: rgba(47, 51, 56, 1);
+  color: rgba(47, 51, 56, 1);
+}
+
+.disabled {
+  background-color: rgba(201, 202, 207, 1);
+  border-color: rgba(109, 111, 120, 1);
+  color: rgba(109, 111, 120, 1);
+}

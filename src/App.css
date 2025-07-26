@@ -1,0 +1,35 @@
+.appContainer {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.appActionsContainer {
+  z-index: 1;
+  position: absolute;
+  max-height: 100%;
+  padding: 16px;
+  width: 100%;
+  inset: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  pointer-events: none;
+}
+
+.appActionsContainer > * {
+  pointer-events: auto;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  padding: 16px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.modalWrapper {
+  max-height: 100%;
+}

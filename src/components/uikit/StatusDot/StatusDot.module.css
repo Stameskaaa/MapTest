@@ -1,0 +1,32 @@
+.container {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.ok {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #62ee55 20%,
+    rgba(73, 205, 61, 0.7) 60%,
+    rgba(47, 172, 36, 0) 100%
+  );
+}
+
+.process {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #eaef4f 20%,
+    rgba(205, 209, 80, 0.7) 60%,
+    rgba(208, 211, 110, 0) 100%
+  );
+}
+
+.inactive {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #f0f8fc 20%,
+    rgba(198, 208, 209, 0.7) 60%,
+    rgba(227, 243, 251, 0) 100%
+  );
+}

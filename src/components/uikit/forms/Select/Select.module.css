@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 1);
+}
+
+.select {
+  all: unset;
+  position: relative;
+  height: 34px;
+  padding: 8px 12px;
+  padding-right: 30px;
+  border: 1px solid rgba(178, 178, 178, 1);
+  border-radius: 4px;
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  line-height: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}

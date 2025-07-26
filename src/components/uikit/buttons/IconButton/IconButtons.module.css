@@ -1,0 +1,15 @@
+.iconButton {
+  aspect-ratio: 1 / 1;
+  width: 16px;
+  height: 16px;
+  transition: 0.2s color;
+  color: rgba(73, 74, 80, 1);
+}
+
+.iconButton:hover {
+  color: rgba(73, 74, 80, 0.6);
+}
+
+.iconButton:active {
+  color: rgba(73, 74, 80, 0.4);
+}
